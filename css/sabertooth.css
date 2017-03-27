@@ -1,0 +1,108 @@
+@font-face
+{
+    font-family: 'Cows';
+    src: url('polices/cows.ttf');
+	src: url('polices/cows.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+
+
+body
+{
+ background-image: url("background.jpg");
+ background-attachment: fixed;
+}
+
+#corps_forum
+{
+
+ border: 1px solid black;
+ width: 90%;
+ margin-top: 23px;
+ margin-left: 5%;
+ margin-bottom: 10Opx;
+ padding: 5px;
+ background-color: rgb(165,42,42);
+ border-style: outset;
+ opacity:0.9;
+
+}
+ 
+#footer
+{
+ 
+ 
+ border: 1px solid black;
+ width: 40%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 10px;
+ margin-top: 30px;
+ padding: 5px;
+ background-color: rgb(165,42,42);
+ border-style: outset;
+ opacity:0.9;
+
+}
+
+#quote
+{
+
+ width: 100%;
+ background-color : rgb(220,220,220);
+ margin-top: 2px;
+ margin-bottom: 2px;
+ font-family: "Book Antiqua", Palatino, serif;
+
+}
+
+.ico {width:2%;}
+.titre { font-family: "Book Antiqua", Palatino, serif; width: 61%; }
+.nombremessages { font-family: "Book Antiqua", Palatino, serif; text-align: center ; width:2%; font-size: 1.1em; }
+.nombrevu { font-family: "Book Antiqua", Palatino, serif; text-align: center ; width:4%; font-size: 1.1em; }
+.nombresujets { font-family: "Book Antiqua", Palatino, serif; text-align: center ; width:2%; font-size: 1.1em; }
+.auteur { font-family: "Book Antiqua", Palatino, serif; text-align: center ; width:7%; }
+.derniermessage { font-family: "Book Antiqua", Palatino, serif; text-align: center ; width:18%; }
+.categorie { width:92%; background-color : rgb(244,238,250); }
+.lolilol { text-align: center; }
+.menuf { font-family:"Book Antiqua", Palatino, serif; margin-top: 16px; }
+.underlinks { text-decoration: underline; }
+.mp_titre { width:65%; }
+.mp_expediteur { width:10%; }
+.mp_time { width:20%; }
+
+a { color: rgb(218,165,32); text-decoration: none; } 
+table a { color: #21201E; }
+td { border: 1px solid black; background-color: rgb(240,248,255); vertical-align:top; empty-cells: hide; padding: 2px; }
+table { background-color: #FFFFFF; border: 1px solid black; empty-cells: hide; }
+th { background-color: rgb(128,0,0); border: 1px solid black; empty-cells: hide; padding: 2px;  }
+
+.fieldsetregister { width: 410px; }
+#fieldsetconnexion { width: 300px; }
+label { display:block; width:150px; float:left; }
+
+.vt_auteur
+{
+width:20%;
+background-color : rgb(128,0,0);
+}
+
+.vt_mess
+{
+width:75%;
+background-color : rgb(128,0,0);
+}
+
+.logo-title {
+  text-align: center;
+ font-family: 'Cows', arial, sans-serif;
+ font-size: 22px;
+ border: 0;
+ margin: 0;
+ -webkit-margin-before: 1em;
+ -webkit-margin-after: 0;
+ color: #C6161A;
+ text-transform: uppercase;
+}
